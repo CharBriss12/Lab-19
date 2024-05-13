@@ -103,6 +103,18 @@ build CMakeFiles/lab_19.dir/Libs/string/string.c.obj: C_COMPILER__lab_19_Debug C
   OBJECT_DIR = CMakeFiles\lab_19.dir
   OBJECT_FILE_DIR = CMakeFiles\lab_19.dir\Libs\string
 
+build CMakeFiles/lab_19.dir/Libs/algorithms/algorithms.c.obj: C_COMPILER__lab_19_Debug C$:/Users/charl/CLionProjects/lab_19/Libs/algorithms/algorithms.c || cmake_object_order_depends_target_lab_19
+  DEP_FILE = CMakeFiles\lab_19.dir\Libs\algorithms\algorithms.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lab_19.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab_19.dir\Libs\algorithms
+
+build CMakeFiles/lab_19.dir/Libs/files/files.c.obj: C_COMPILER__lab_19_Debug C$:/Users/charl/CLionProjects/lab_19/Libs/files/files.c || cmake_object_order_depends_target_lab_19
+  DEP_FILE = CMakeFiles\lab_19.dir\Libs\files\files.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\lab_19.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab_19.dir\Libs\files
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab_19
@@ -111,7 +123,7 @@ build CMakeFiles/lab_19.dir/Libs/string/string.c.obj: C_COMPILER__lab_19_Debug C
 #############################################
 # Link the executable lab_19.exe
 
-build lab_19.exe: C_EXECUTABLE_LINKER__lab_19_Debug CMakeFiles/lab_19.dir/main.c.obj CMakeFiles/lab_19.dir/Libs/array/array.c.obj CMakeFiles/lab_19.dir/Libs/set_bits/set_bits.c.obj CMakeFiles/lab_19.dir/Libs/set_ordered/set_ordered.c.obj CMakeFiles/lab_19.dir/Libs/set_unordered/set_unordered.c.obj CMakeFiles/lab_19.dir/Libs/vector/vector.c.obj CMakeFiles/lab_19.dir/Libs/vectors_void/Vector_void.c.obj CMakeFiles/lab_19.dir/Libs/matrix/matrix.c.obj CMakeFiles/lab_19.dir/Libs/string/string.c.obj
+build lab_19.exe: C_EXECUTABLE_LINKER__lab_19_Debug CMakeFiles/lab_19.dir/main.c.obj CMakeFiles/lab_19.dir/Libs/array/array.c.obj CMakeFiles/lab_19.dir/Libs/set_bits/set_bits.c.obj CMakeFiles/lab_19.dir/Libs/set_ordered/set_ordered.c.obj CMakeFiles/lab_19.dir/Libs/set_unordered/set_unordered.c.obj CMakeFiles/lab_19.dir/Libs/vector/vector.c.obj CMakeFiles/lab_19.dir/Libs/vectors_void/Vector_void.c.obj CMakeFiles/lab_19.dir/Libs/matrix/matrix.c.obj CMakeFiles/lab_19.dir/Libs/string/string.c.obj CMakeFiles/lab_19.dir/Libs/algorithms/algorithms.c.obj CMakeFiles/lab_19.dir/Libs/files/files.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab_19.dir
